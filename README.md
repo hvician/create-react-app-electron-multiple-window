@@ -1,12 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is using: 
-[react-app-rewired](https://github.com/timarney/react-app-rewired)
-[Electron](https://github.com/electron/electron)
-[electron-window-manager](https://github.com/tamkeen-tms/electron-window-manager)
-[electron-builder](https://www.electron.build/)
+This project is using:
+- [react-app-rewired](https://github.com/timarney/react-app-rewired)
+- [Electron](https://github.com/electron/electron)
+- [electron-window-manager](https://github.com/tamkeen-tms/electron-window-manager)
+- [electron-builder](https://www.electron.build/)
 
-You can open a new window using electron-window-manager see containers/Home.js file<br />
+You can open a new window using electron-window-manager see __containers/Home.js__ file<br />
 Also note that the app is file based not request based so it's configured with HashRouter instead of BrowserRouter and opening a new window with a specific route "index.html#/route"
 
 ## Available Scripts
@@ -15,7 +15,7 @@ In the project directory, you can run:
 
 ### `npm run electron-dev`
 will start electron dev environment with console open<br />
-the main window props can be tweaked in the /public/electron.js file<br />
+the main window props can be tweaked in the __/public/electron.js__ file<br />
 [see Electron BrowserWindow properties](https://www.electronjs.org/docs/api/browser-window) 
 
 ### `npm run electron-pack`
